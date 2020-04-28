@@ -9,8 +9,9 @@ function App() {
   return (
     <div className="demo-big-content">
       <Helmet>
+      <meta charSet="utf-8" />
         <title>
-          Pradnesh
+          Pradnesh Sanderan
         </title>
       </Helmet>
     <Layout>
