@@ -19,7 +19,7 @@ function App() {
           Pradnesh Sanderan
         </Link>} scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contacts">Contact</Link>
             </Navigation>
