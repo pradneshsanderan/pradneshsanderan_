@@ -4,6 +4,7 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import Languages from './languages';
+import ResumeD from "./my-cv.pdf";
 
 class Resume extends Component{
     render(){
@@ -33,8 +34,8 @@ class Resume extends Component{
                     <p>To obtain a full time software development position after graduation</p>
                     <h5>email</h5>
                     <p>pradneshsanderan@gmail.com</p>
-                    <a href="/my-cv.pdf" download='Pradnesh_Resume' class="btn-rounded-white" rel="noopener noreferer" target="_blank">
-                    <Button raised ripple>Downlod Resume</Button>
+                     <a href={ResumeD} class="btn-rounded-white" rel="noopener noreferer" target="_blank">
+                    <Button variant="outline-dark">View Resume</Button>
                     </a>
                     <hr style={{borderTop:'3px solid #833fb2',width: '50%'}}/>
                     </Cell>
